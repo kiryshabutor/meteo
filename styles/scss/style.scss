@@ -1,0 +1,138 @@
+*{
+    font-family: Roboto;
+    font-weight: 500;
+    color: #2E2F42;
+    transition: all .5s;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 156px;
+    margin: 0 auto;
+}
+
+.header{
+
+    &__nav{
+        position: fixed;
+        background-color: white;
+        width: 100%;
+    }
+    
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    &__box{
+        background-color: #2E2F42;
+        padding: 260px 0 188px;
+        height: 20000px;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        font-family: roboto;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 2%;
+        color: #ffffff;
+        margin-bottom: 48px;
+        text-align: center;
+    }
+
+    &__button{
+        padding: 16px 32px;
+        background-color: rgba(77, 90, 229, 1);
+        border-radius: 2px;
+        color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        &:hover{
+            background-color: rgba(77, 90, 229, 0.7);
+            transform: scale(1.15);
+        }
+    }
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+    &__logo{
+        &>span{
+            color: #4D5AE5;
+            font-weight: 800;
+        }
+        font-family: Raleway;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 3%;
+    } 
+
+    &__link{
+        font-family: roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+
+        border-bottom: 1px solid #ffffff;;
+
+        &:hover{
+            
+            border-bottom: 1px solid #2E2F42;;
+        }
+    }
+
+    &__item{
+        
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.15);
+        }
+
+        &:not(:last-child){
+            margin-right: 40px;
+        }
+        
+        &--logo{
+            margin-right: 76px !important;
+        }
+
+    }
+
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    &__item{
+        border-bottom: 1px solid #ffffff;;
+        &:not(:last-child){
+            margin-right: 40px;
+        }
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+            border-bottom: 1px solid #434455;
+        }
+    }
+
+    &__link{
+        font-family: roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        color: #434455;
+    }
+}
