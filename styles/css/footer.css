@@ -1,0 +1,12 @@
+.footer {
+  padding: 100px 0px;
+  background-color: #2E2F42;
+}
+.footer__logo {
+  display: block;
+  margin-bottom: 18px;
+  color: #F4F4FD;
+}
+.footer__text {
+  color: #F4F4FD;
+}/*# sourceMappingURL=footer.css.map */

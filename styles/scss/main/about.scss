@@ -1,0 +1,40 @@
+.about{
+    padding: 120px 0px;
+
+    &__pictures{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__img{
+
+        max-width: 360px;
+        max-height: 300px;
+        &:not(:last-child){
+            margin-right: 24px;
+        }
+    }
+}
+
+.characteristics{
+    display: flex;
+
+    margin-bottom: 120px;
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+
+        &:not(:last-child){
+            margin-right: 24px;
+        }
+    }
+
+    &__title{
+        
+
+        margin-bottom: 8px;
+    }
+
+}

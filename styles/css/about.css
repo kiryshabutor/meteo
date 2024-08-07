@@ -1,0 +1,29 @@
+.about {
+  padding: 120px 0px;
+}
+.about__pictures {
+  display: flex;
+  justify-content: space-between;
+}
+.about__img {
+  max-width: 360px;
+  max-height: 300px;
+}
+.about__img:not(:last-child) {
+  margin-right: 24px;
+}
+
+.characteristics {
+  display: flex;
+  margin-bottom: 120px;
+}
+.characteristics__item {
+  display: flex;
+  flex-direction: column;
+}
+.characteristics__item:not(:last-child) {
+  margin-right: 24px;
+}
+.characteristics__title {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=about.css.map */
