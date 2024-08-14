@@ -1,65 +1,40 @@
-.about {
-  padding: 120px 0px;
+.portfolio {
+  padding: 170px 0 120px;
 }
-.about__pictures {
-  display: flex;
-  justify-content: space-between;
-}
-.about__img {
-  max-width: 360px;
-  max-height: 300px;
-}
-.about__img:not(:last-child) {
-  margin-right: 24px;
-}
-
-.characteristics {
-  display: flex;
-  margin-bottom: 120px;
-}
-.characteristics__item {
+.portfolio__content {
   display: flex;
   flex-direction: column;
-}
-.characteristics__item:not(:last-child) {
-  margin-right: 24px;
-}
-.characteristics__title {
-  margin-bottom: 8px;
+  align-items: center;
 }
 
-.team {
-  background-color: #F4F4FD;
-  padding: 120px 0 120px;
+.sorting {
+  margin-bottom: 72px;
 }
-.team__workers {
-  display: flex;
+.sorting__button {
+  background-color: #404BBF;
 }
-
-.teamCard {
-  background-color: #ffffff;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16);
+.sorting__button--nonactive {
+  background-color: #E7E9FC;
+  color: #4D5AE5;
 }
-.teamCard__img {
-  max-width: 264px;
-  max-height: 260px;
-  opacity: 0.9;
-}
-.teamCard:not(:last-child) {
+.sorting__button:not(:last-child) {
   margin-right: 24px;
 }
-.teamCard__info {
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 24px;
+}
+
+.project {
+  border: solid 1px #E7E9FC;
+}
+.project__info {
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
-  align-items: center;
 }
-.teamCard__title {
+.project__title {
   margin-bottom: 8px;
-}
-.teamCard:hover {
-  transform: scale(1.1);
-}
-.teamCard:hover > .card__img {
-  opacity: 1;
 }/*# sourceMappingURL=main.css.map */

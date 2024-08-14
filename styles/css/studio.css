@@ -50,6 +50,17 @@ p {
   margin-bottom: 72px;
 }
 
+.button {
+  padding: 16px 32px;
+  background-color: rgb(77, 90, 229);
+  border-radius: 2px;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
 .header__nav {
   position: fixed;
   background-color: white;
@@ -79,17 +90,6 @@ p {
   color: #ffffff;
   margin-bottom: 48px;
   text-align: center;
-}
-.header__button {
-  padding: 16px 32px;
-  background-color: rgb(77, 90, 229);
-  border-radius: 2px;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.header__button:hover {
-  background-color: rgba(77, 90, 229, 0.7);
-  transform: scale(1.15);
 }
 
 .menu {
@@ -219,4 +219,4 @@ p {
 }
 .footer__text {
   color: #F4F4FD;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=studio.css.map */
